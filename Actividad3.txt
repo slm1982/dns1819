@@ -10,3 +10,7 @@ Añado todos los ficheros indicados: echo "privado.txt" > .gitignore
 Introduce comentario en named.conf.local: echo "Comentario al final" >> named.conf.local
 Commit nuevo: git commit -m "commit de edición del named.conf.local"
 Visualiza todos los commits: git log
+
+
+
+CAMBIOS EN ARCHIVO REMOTO...
