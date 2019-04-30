@@ -1,0 +1,18 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	pc1.practicadaw.net. correo.practicadaw.net. (
+			      2019042901	; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	pc1.practicadaw.com.
+@	IN	MX	1	correos.practicadaw.net.
+pc1	IN	A	192.168.0.104
+correos	IN	A	192.168.0.177
+pc2	IN	A	192.168.0.178
+pc3	IN	A	192.168.0.179
+ftp	IN	A	192.168.0.178

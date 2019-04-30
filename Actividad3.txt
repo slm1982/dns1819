@@ -1,0 +1,12 @@
+Inicializa proyecto: git init
+Añade todos los archivos...: git add named.*
+Commit con mensaje: git commit -m "añadimos named"
+Añade todos los archivos que...: git add db.*
+Commit con mensaje: git commit -m "añadimos db"
+Creo privado.txt para ignorar: echo "named.*" > privado.txt
+Añado los demás tipos: echo "db.*" >> privado.txt
+Creo fichero .gitignore: touch .gitignore
+Añado todos los ficheros indicados: echo "privado.txt" > .gitignore
+Introduce comentario en named.conf.local: echo "Comentario al final" >> named.conf.local
+Commit nuevo: git commit -m "commit de edición del named.conf.local"
+Visualiza todos los commits: git log
