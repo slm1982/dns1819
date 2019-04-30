@@ -15,4 +15,9 @@ zone 0.168.192.in-addr.arpa {
 	type master;
 	file "/etc/bind/db.0.168.192";
 };
-Edito fichero otra vez en master 
+
+
+Edito fichero
+Edito fichero de nuevo 2
+Edito fichero otra vez 3
+Edito fichero otra vez en master
