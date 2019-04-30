@@ -16,3 +16,4 @@ zone 0.168.192.in-addr.arpa {
 	file "/etc/bind/db.0.168.192";
 };
 Edito fichero
+Edito fichero de nuevo 2
